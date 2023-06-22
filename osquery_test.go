@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ecnepsnai/osquery"
+	"github.com/neilotoole/osquery"
 )
 
 func TestQuery(t *testing.T) {

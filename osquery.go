@@ -8,28 +8,26 @@
 // The OSInfo object contains details into the specific operating system that is running. For example, this is
 // what is returned for a Fedora Linux device:
 //
-//     osquery.OSInfo{
-//         Platform:       "linux",
-//         Kernel:         "Linux",
-//         KernelVersion:  "5.9.11-200.fc33.x86_64",
-//         Variant:        "Fedora",
-//         VariantVersion: "33 (Workstation Edition)",
-//     }
+//	osquery.OSInfo{
+//	    Platform:       "linux",
+//	    Kernel:         "Linux",
+//	    KernelVersion:  "5.9.11-200.fc33.x86_64",
+//	    Variant:        "Fedora",
+//	    VariantVersion: "33 (Workstation Edition)",
+//	}
 //
 // or, for a Windows device:
 //
-//     osquery.OSInfo{
-//         Platform:       "windows",
-//         Kernel:         "NT",
-//         KernelVersion:  "19042",
-//         Variant:        "Microsoft Windows 10 Pro",
-//         VariantVersion: "10.0.19042",
-//     }
-//
+//	osquery.OSInfo{
+//	    Platform:       "windows",
+//	    Kernel:         "NT",
+//	    KernelVersion:  "19042",
+//	    Variant:        "Microsoft Windows 10 Pro",
+//	    VariantVersion: "10.0.19042",
+//	}
 package osquery
 
 import (
-	"fmt"
 	"os/exec"
 	"runtime"
 	"strings"

@@ -1,3 +1,3 @@
-module github.com/ecnepsnai/osquery
+module github.com/neilotoole/osquery
 
 go 1.14
